@@ -34,7 +34,7 @@ return (
     <div className="slider">
         <div className="slider-img slider-img-prev"
                 key={prevImgIndex}>
-            {img[prevImgIndex]}
+            {img[prevImgIndex] }
         </div>
         <div className="slider-img"
                 key={activeIndex}>

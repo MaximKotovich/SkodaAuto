@@ -5,6 +5,7 @@ export default function Row1(props) {
        return(
 
     <div>
+        <p id="news">МОДЕЛЬНЫЙ РЯД</p>
         { props.car.map(item =>{
             return( 
             <div className="model1">

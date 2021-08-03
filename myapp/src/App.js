@@ -34,9 +34,9 @@ function App() {
       <Header />
     </header>
     <div className="container-fluid">
- 
+      <div className="row"> 
         <Slider></Slider>
-
+      </div>
       <div className="row"> 
         <Row1 car = {car}></Row1>
       </div>
