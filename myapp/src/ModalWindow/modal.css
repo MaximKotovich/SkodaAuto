@@ -1,0 +1,70 @@
+.modalWindow{
+    display:none;
+    position: fixed;
+    background-color: rgb(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index:99999999; 
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+.modalWindow.modalWindow{
+    transform: scale(1);
+}
+.obratnuj-zvonok{
+	width: 100%;
+	max-width: 450px;
+    background-color: white;
+    padding: 3%;
+    border-radius: 5px;
+}
+.form-zvonok{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.form-zvonok div{
+	padding: 10px 0;
+}
+.bot-send-mail{
+	box-sizing: border-box;
+	width: 100%;
+}
+.form-zvonok label,.form-zvonok input, .form-zvonok textarea{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+.form-zvonok label{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.form-zvonok input, .form-zvonok textarea{
+	padding: 10px 15px; 
+	margin-top: 10px;
+    resize: none;
+}
+.form-zvonok label span{
+	color: red;
+}
+.form-zvonok .bot-send-mail{
+	padding: 15px;
+	margin-top: 10px;
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	background-color: green;
+	cursor: pointer;
+	border: 3px green solid;
+	border-radius: 5px;
+}
+.form-zvonok .bot-send-mail:hover{
+	color: green;
+	background-color: #fff;
+}

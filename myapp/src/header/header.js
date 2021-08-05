@@ -28,6 +28,10 @@ export default function Header() {
                         <a href="#">
                             <li className="liclass">Клиентам</li>
                         </a>
+                        <a href="#">
+                            <li className="liclass" >Записаться к нам</li>
+                        </a>
+                    
                     </ul>
                 </div>            
             </div>
