@@ -9,7 +9,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.container-fluid{
+  padding: 0;
+}
 .row{
   display: block;
   margin: 2% 0 0 0!important;
@@ -112,7 +114,7 @@ transform: scale(1);
 }
 .imgmodel1{
   width: 100%;
-  height: 80%;
+  height: 100%;
   overflow: hidden;
 }
 #imgmodel1{

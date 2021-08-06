@@ -1,6 +1,6 @@
 .modalWindow{
-    display:none;
-    position: fixed;
+	display:flex;
+	position: fixed;
     background-color: rgb(0,0,0,0.5);
     top: 0;
     bottom: 0;
@@ -8,11 +8,15 @@
     z-index:99999999; 
     align-items: center;
     justify-content: center;
-    transform: scale(0);
+    opacity: 0;
+	transition: 0.5s;
+	pointer-events: none;
 }
-.modalWindow.modalWindow{
-    transform: scale(1);
+.modalWindow.active{
+	opacity: 1;
+	pointer-events: all;
 }
+
 .obratnuj-zvonok{
 	width: 100%;
 	max-width: 450px;
