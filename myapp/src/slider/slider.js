@@ -7,10 +7,10 @@ import slide4 from "./images/oct4.jpg"
 import "./slider.css"
 
 const img = [
-    <img key={slide1} src={slide1} />,
-    <img key={slide2} src={slide2} />,
-    <img key={slide3} src={slide3} />,
-    <img key={slide4} src={slide4} />
+    <img className = "img-for-slider" key={slide1} src={slide1} />,
+    <img className = "img-for-slider" key={slide2} src={slide2} />,
+    <img className = "img-for-slider" key={slide3} src={slide3} />,
+    <img className = "img-for-slider" key={slide4} src={slide4} />
 ]
 
 export function Slider() {

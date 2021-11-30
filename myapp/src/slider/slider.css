@@ -1,6 +1,9 @@
 .slider {
     width: 100%;
-    height: 500px;
+    height: 600px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     position: relative;
     align-items: center;
     overflow: hidden;
@@ -20,4 +23,7 @@
  
 .slider-img-next {
     transform: translateX(100%);
+}
+.img-for-slider{
+    width: 100%;
 }

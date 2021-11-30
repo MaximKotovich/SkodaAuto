@@ -16,7 +16,7 @@ export default function News(props) {
                    )
                 }
                 
-                <a href="#"><div className="button">ПОДРОБНЕЕ</div></a>
+               <div className="bottom-button-position"><a href="#"><div className="button">ПОДРОБНЕЕ</div></a></div>
         </div>
     </div>
     )}

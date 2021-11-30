@@ -47,7 +47,6 @@ code {
 
 }
 a{
-
 text-decoration: none;
 }
 /* topmenu */
@@ -159,15 +158,20 @@ transform: scale(1);
   height: 100%;
   width: 100%;
 }
+.bottom-button-position{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
 .button{
 border-radius: 25px;
 text-align: center;
-margin-left: 40%;
-margin-top: 2%;
+margin-top: 12%;
 background-color: white;
 float: left;
 color: black;
-padding: 2%;
+padding: 22%;
 border-width:1px;
 border-color: black;
 border-style: solid;
